@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=MergeLines
+qgisMinimumVersion=2.0
+description=MergeLines
+version=0.1
+author=Ioanna Kolovou
+email=I.Kolovou@spacesyntax.com
+
+about=This is a plugin to merge lines into polylines and break them at intersections
+
+tracker=https://github.com/Anafi/Ioanna_PyCodes.git
+repository=https://github.com/Anafi/Ioanna_PyCodes.git
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=geometry
+
+homepage=https://github.com/Anafi/Ioanna_PyCodes
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
