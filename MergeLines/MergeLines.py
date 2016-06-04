@@ -21,6 +21,7 @@
  ***************************************************************************/
 """
 
+# import depedencies
 from PyQt4.QtCore import *
 #QSettings, QTranslator, qVersion, QCoreApplication,QgsProgressBar
 from PyQt4.QtGui import QAction, QIcon, QFileDialog, QDoubleSpinBox
