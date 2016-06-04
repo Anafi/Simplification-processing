@@ -79,7 +79,7 @@ class MergeLines:
         self.toolbar = self.iface.addToolBar(u'MergeLines')
         self.toolbar.setObjectName(u'MergeLines')
 
-        self.tools=tools
+        self.tools= tools
 
         #clear all lineEdits
         self.dlg.path_output.clear()
@@ -306,7 +306,7 @@ class MergeLines:
 
         self.dlg.progress_bar.setValue(2)
 
-        tools.simplify_angle(network_merged,ang_threshold,len_threshold)
+        tools.simplify_angle(network_merged, ang_threshold, len_threshold)
 
         self.dlg.progress_bar.setValue(3)
 
@@ -386,11 +386,11 @@ class MergeLines:
         self.dlg.progress_bar_2.setValue(1)
 
         tools.clean_duplicates(output_network)
-        tools.clean_two_ends(output_network,distance_threshold_two)
+        tools.clean_two_ends(output_network, distance_threshold_two)
 
         network_merged=self.tools.merge_lines(output_network)
 
-        tools.clean_two_ends(network_merged,distance_threshold_two)
+        tools.clean_two_ends(network_merged, distance_threshold_two)
 
         self.dlg.progress_bar_2.setValue(2)
 
