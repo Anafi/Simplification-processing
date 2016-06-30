@@ -27,6 +27,8 @@ import resources
 # Import the code for the dialog
 from rcl_simplification_dialog import RclSimplificationDialog
 import os.path
+import graph_tools_1
+import graph_tools_2
 
 
 class RclSimplification:
